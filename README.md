@@ -1,6 +1,10 @@
 <div align="center">
 
-# GKI KernelSU SUSFS
+# 适用于Marble（Redmi Note 12 Turbo）的GKI内核
+
+
+
+# 以下是原项目说明
 ### 🏮 2026 🐎 Happy New Year! 🏮
 
 **自动化构建 GKI 内核 | 集成 KernelSU + SUSFS**
