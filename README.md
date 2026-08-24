@@ -2,6 +2,31 @@
 
 # 适用于Marble（Redmi Note 12 Turbo）的GKI内核
 
+几乎完美的DroidSpaces支持
+
+## 已添加以下内核构建选项
+```conf
+enable_config CONFIG_USER_NS
+enable_config CONFIG_NAMESPACES
+enable_config CONFIG_NET_NS
+enable_config CONFIG_UTS_NS
+enable_config CONFIG_CGROUP_DEVICE
+```
+
+## 推荐构建配置
+
+| 构建选项                      | 内容                      | 建议                                |
+| ------------------------- | ----------------------- | --------------------------------- |
+| 内核版本                      | 5.10                    | 必须                                |
+| 安全补丁级别                    | 2025-05<br>或<br>2025-06 | 更新的版本在Marble上可以进系统，但闪屏，可能需要清除Data |
+| Droidspaces<br>容器支持       | 678                     | 345可以进入系统但是会自动重启，应该是槽位覆盖厂商配置导致的   |
+| KPM                       | 开启                      |                                   |
+| NTSync支持                  | 开启                      |                                   |
+| ZRAM增强算法                  | 开启                      |                                   |
+| BBG防格机                    | 关闭                      | 稳定性问题                             |
+| Re-Kernel驱动               | 关闭                      | 稳定性问题                             |
+| CVE-2026-43499 rtmutex 修复 | 开启                      | 必须                                |
+| 禁用 SUSFS                  | 开启                      | 必须                                |
 
 
 # 以下是原项目说明
