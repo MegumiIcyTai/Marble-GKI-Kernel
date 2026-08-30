@@ -5,7 +5,7 @@
 几乎完美的DroidSpaces支持
 
 ## 已添加以下内核构建选项
-```conf
+```
 enable_config CONFIG_USER_NS
 enable_config CONFIG_NAMESPACES
 enable_config CONFIG_NET_NS
