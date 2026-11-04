@@ -3,8 +3,8 @@
 几乎完美的 DroidSpaces 支持
 
 2026/11/04: 
-1.已添加IPV6 NAT支持（DroidSpaces 7.0起支持NAT66）
-2.已添加macvlan支持（DroidSpaces 7.0起支持macvlan，cli已支持，app内暂无入口）
+<br>1.已添加IPV6 NAT支持（DroidSpaces 7.0起支持NAT66）
+<br>2.已添加macvlan支持（DroidSpaces 7.0起支持macvlan，cli已支持，app内暂无入口）
 
 ## 内核构建选项
 
