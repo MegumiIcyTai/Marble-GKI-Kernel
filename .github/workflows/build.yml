@@ -998,6 +998,9 @@ jobs:
           enable_config CONFIG_NET_NS
           enable_config CONFIG_UTS_NS
           enable_config CONFIG_CGROUP_DEVICE
+          enable_config CONFIG_IP6_NF_NAT
+          enable_config CONFIG_IP6_NF_TARGET_MASQUERADE
+          enable_config CONFIG_MACVLAN
 
           # 用户命名空间：上游文档列为可选但推荐，用于修复 docker unsafe procfs 报错。
           # init/Kconfig 中无 depends on，且 struct cred 的 user_ns/ucounts 是无条件成员，
